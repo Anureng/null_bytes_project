@@ -7,6 +7,7 @@ function Members() {
     <>
     <Header/>
     <Card/>
+    <Fotter/>
     </>
     
   )

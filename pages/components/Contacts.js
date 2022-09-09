@@ -28,7 +28,7 @@ import {
   
   export default function contacts() {
     return (
-      <Container bg="#9DC4FB" maxW="full"  mt={0} centerContent overflow="hidden">
+      <Container bg="cyan" maxW="full"  mt={0} centerContent overflow="hidden">
         <Flex>
           <Box
             bg="#02054B"
@@ -53,8 +53,8 @@ import {
                           variant="ghost"
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdPhone color="#1970F1" size="20px" />}>
-                          +91-988888888
+                          >
+                          
                         </Button>
                         <Button
                           size="md"
@@ -64,7 +64,7 @@ import {
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
                           leftIcon={<MdEmail color="#1970F1" size="20px" />}>
-                          hello@abc.com
+                          nullbytes101@gmail.com
                         </Button>
                         <Button
                           size="md"
@@ -74,7 +74,7 @@ import {
                           color="#DCE2FF"
                           _hover={{ border: '2px solid #1C6FEB' }}
                           leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
-                          Karnavati, India
+                          Ulhasnagar, India
                         </Button>
                       </VStack>
                     </Box>
@@ -99,14 +99,7 @@ import {
                         _hover={{ bg: '#0D74FF' }}
                         icon={<BsGithub size="28px" />}
                       />
-                      <IconButton
-                        aria-label="discord"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
-                        icon={<BsDiscord size="28px" />}
-                      />
+                     
                     </HStack>
                   </Box>
                 </WrapItem>

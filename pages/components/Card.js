@@ -18,10 +18,10 @@ function Card() {
   return (
     <>
     
-    <Flex p={'5rem'} flexWrap="wrap" gap={"3.5rem"} border="2px solid pink" w="100vw" h={"100vh"}>
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Flex p={'5rem'} flexWrap="wrap" gap={"3.5rem"}   bg='cyan'>
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
-        <Image src={'/anurag.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
+        <Image src={'/anurag.jpg'}  height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}  rounded="lg" />
       {/* </Box> */}
     <Text fontSize="2xl">
       Name:- Anurag Sidhu <br></br>
@@ -33,7 +33,7 @@ function Card() {
     </Flex>
     </Box> 
     
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/deepak.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -47,7 +47,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/abhijeet.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -61,7 +61,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/anand.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -75,7 +75,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/ashish.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -89,7 +89,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/ankush.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -103,7 +103,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/shyam_1.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -117,7 +117,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/saurabh.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -131,7 +131,7 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
         <Image src={'/Swapnil.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
       {/* </Box> */}
@@ -145,16 +145,16 @@ function Card() {
     </Flex>
     </Box> 
 
-    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem"  >
+    <Box border={"2px solid black"} height='53vh' w={'25vw'} p="2rem" borderRadius={'6rem'} >
       {/* <Box border={'2px solid red'} h='20vh' w={'15vw'}  > */}
-        <Image src={'/anurag.jpg'} height="200vh" width={"200vw"} objectFit="cover" border={'2px solid red'}/>
+        <Image  src={'/anurag.jpg'} height="200vh"  width={"200vw"} objectFit="cover" />
       {/* </Box> */}
     <Text fontSize="2xl">
       Name:- Anurag Sidhu <br></br>
       Team Lead
     </Text>
     <Flex gap="0.7rem" fontSize="2xl" mt="0.1rem">
-    <FaLinkedinIn/>
+    <FaLinkedinIn cursor={'pointer'}/>
     <FaInstagram/>
     </Flex>
     </Box> 
