@@ -9,7 +9,7 @@ export default function Home() {
   return (
   <>
 <Header/>
-<Center  h="100vh" w="99vw"  bg="cyan"> 
+<Center  h="100vh" w="98.9vw"  bg="cyan"> 
   <Box  p='2rem' ml={'1rem'} mb='19rem' h='55vh' >
     <Heading> Hello Coders</Heading><br/>
     {/* <Text> our community is teach about coding and all. <br/> If your from Bsc or any other degree you get your dream and we will guide you.</Text> */}
